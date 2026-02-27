@@ -135,7 +135,7 @@ ToggleScaleMode() {
         return
     }
 
-    static currentMode := 1
+    static currentMode := 2
     currentMode := Mod(currentMode, 3) + 1
 
     modes := Map(
